@@ -30,7 +30,7 @@ class Meet:
         "profile.default_content_setting_values.notifications": 2                   #Turn off notifications
         })
 
-        self.driver = webdriver.Chrome(executable_path="path\chromedriver.exe", options=self.opt)           #path to your chrome driver, replace with yours
+        self.driver = webdriver.Chrome(executable_path="F:\setup\chrome driver\chromedriver\chromedriver.exe", options=self.opt)           #path to your chrome driver, replace with yours
         self.COMMAND_OR_CONTROL = Keys.COMMAND if sys.platform == 'darwin' else Keys.CONTROL                #COMMAND for Mac and CONTROL for windows
 
     def attendMeet(self):
